@@ -12,20 +12,28 @@ body {
 
 nav {
     display: flex;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
     background-color: green;
     width: 100%;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 .brand {
     flex-basis: 50%;
     font-weight: bold;
+    font-size: x-large;
 }
 
 nav a {
     text-decoration: none;
     color: white;
     padding-left: 4rem;
+}
+
+.menu {
+    margin: auto;
 }
 
 .active {
@@ -37,7 +45,7 @@ main {
     display: flex;
     padding-left: 4rem;
     background-color: green;
-    height: 600px;
+    height: 500px;
     position: relative;
 }
 
@@ -45,12 +53,18 @@ main {
     flex-basis: 50%;
 }
 
-.header h1 {
+h1 {
     font-size: 3rem;
 }
 
+/* page: tentang kami */
 #tentang-kami {
     position: relative;
     height: 600px;
     color: black;
+    padding: 4rem;
+}
+
+.about {
+    align-items: center;
 }
