@@ -13,11 +13,11 @@ body {
 nav {
     display: flex;
     padding: 1.5rem 0;
-    background-color: green;
+    background-color: rgba(0, 128, 0);
     width: 100%;
     position: fixed;
     z-index: 100;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 10px solid rgb(255, 255, 255);
 }
 
 .brand {
@@ -45,8 +45,7 @@ main {
     display: flex;
     padding-left: 4rem;
     background-color: green;
-    height: 500px;
-    position: relative;
+    height: 600px;
 }
 
 .header {
@@ -57,14 +56,26 @@ h1 {
     font-size: 3rem;
 }
 
+
+.home-img {
+    width: 400px;
+}
+
+
 /* page: tentang kami */
 #tentang-kami {
-    position: relative;
+    display: flex;
     height: 600px;
     color: black;
     padding: 4rem;
 }
 
+.about-img {
+    font-size: 10px;
+}
+
 .about {
     align-items: center;
+    width: 50%;
+    margin: auto;
 }
