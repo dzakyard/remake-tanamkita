@@ -7,7 +7,7 @@
 body {
     font-family: monospace;
     font-size: larger;
-    color: white;
+
 }
 
 nav {
@@ -45,7 +45,8 @@ main {
     display: flex;
     padding-left: 4rem;
     background-color: green;
-    height: 600px;
+    height: 700px;
+    color: white;
 }
 
 .header {
@@ -56,11 +57,11 @@ h1 {
     font-size: 3rem;
 }
 
-
-.home-img {
-    width: 400px;
+.home-img pre {
+    font-size: 0.4rem;
+    padding-left: 50%;
+    margin-top: 5rem;
 }
-
 
 /* page: tentang kami */
 #tentang-kami {
@@ -72,10 +73,52 @@ h1 {
 
 .about-img {
     font-size: 10px;
+    margin-left: -3rem;
 }
 
 .about {
     align-items: center;
     width: 50%;
     margin: auto;
+}
+
+
+/* page: katalog prev */
+#katalog-prev {
+    background-color: rgba(0, 128, 0, 0.1);
+    height: 700px;
+}
+
+.header-kat {
+    text-align: center;
+    padding: 4rem;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.product {
+    background-color: white;
+    width: 280px;
+    height: 350px;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.product pre {
+    font-size: 4px;
+    padding-top: 2rem;
+}
+
+/* if pre is over the box */
+.product:nth-child(3) pre {
+    font-size: 3px;
+}
+
+.product p {
+    padding: 1rem 0;
+
 }
