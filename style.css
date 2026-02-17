@@ -85,13 +85,14 @@ h1 {
 
 /* page: katalog prev */
 #katalog-prev {
-    background-color: rgba(0, 128, 0, 0.1);
+    background-color: green;
     height: 700px;
 }
 
 .header-kat {
     text-align: center;
     padding: 4rem;
+    color: white;
 }
 
 .product-list {
@@ -142,12 +143,15 @@ h1 {
 
 .info, 
 .form-contact {
-    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
     width: 500px;
-    height: 400px;
+    height: 450px;
     border: 1px solid;
     border-radius: 5%;
-}
+} 
+
 
 .info h2 {
     padding: 15% 0 3%;
@@ -162,3 +166,67 @@ h1 {
     padding: 5px 0;
 }
 
+.form-contact form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    gap: 0.7rem ;
+}
+
+.form-contact form input,
+.form-contact form textarea,
+.btn-kirim {
+    height: 3rem;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.063);
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+.btn-kirim {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* page: footer */
+footer {
+    height: 200px;
+    background-color: green;
+    color: white;
+    display: flex;
+    padding: 3rem;
+    justify-content: space-around;
+}
+
+footer h3 {
+    padding-bottom: 1rem;
+}
+
+footer p,
+footer ul {
+    font-size: 0.9rem;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-menu ul li,
+.footer-contact ul li {
+    padding: 0.3rem 0;
+}
+
+.footer-contact ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
