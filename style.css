@@ -194,11 +194,11 @@ h1 {
 
 /* page: footer */
 footer {
-    height: 200px;
+    height: 250px;
     background-color: green;
     color: white;
     display: flex;
-    padding: 3rem;
+    padding: 3rem 0;
     justify-content: space-around;
 }
 
@@ -227,6 +227,10 @@ footer ul li a {
 
 .footer-contact ul {
     display: flex;
-    justify-content: center;
+    padding: 1rem 0;
     gap: 1rem;
+}
+
+.footer-contact ul li a pre {
+    font-size: 1px;
 }
