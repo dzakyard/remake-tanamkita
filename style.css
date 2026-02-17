@@ -7,7 +7,6 @@
 body {
     font-family: monospace;
     font-size: larger;
-
 }
 
 nav {
@@ -36,8 +35,9 @@ nav a {
     margin: auto;
 }
 
-.active {
-    color: rgba(255, 255, 255, 0.8);
+.menu a:hover,
+.footer-menu a:hover {
+    color: rgb(0, 255, 4);
 }
 
 main {
@@ -74,6 +74,7 @@ h1 {
 .about-img {
     font-size: 10px;
     margin-left: -3rem;
+    box-shadow: ack 2px;
 }
 
 .about {
@@ -148,9 +149,10 @@ h1 {
     padding: 2rem;
     width: 500px;
     height: 450px;
-    border: 1px solid;
+    border: 1px solid rgba(128, 128, 128, 0.1);
     border-radius: 5%;
 } 
+
 
 
 .info h2 {
@@ -233,4 +235,27 @@ footer ul li a {
 
 .footer-contact ul li a pre {
     font-size: 1px;
+}
+
+
+/* universal */
+.btn-kirim,
+.form-contact {
+    box-shadow: 5px 5px 5px rgba(237, 237, 237, 0.5);
+}
+
+.product {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-img pre{
+    text-shadow: 5px 5px 5px rgba(237, 237, 237, 0.5);
+}
+
+
+
+
+/* javascript */
+.link-active {
+    color: rgb(0, 255, 4);
 }
