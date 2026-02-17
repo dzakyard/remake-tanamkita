@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* important part if use <pre> as img */
 pre {
     overflow: hidden;
 }
@@ -87,6 +88,40 @@ h1 {
     margin: auto;
 }
 
+
+/* page: reasons */
+#reasons {
+    background-color: green;
+    height: 500px;
+    color: white;
+    padding: 4rem;
+}
+
+#reasons header {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#reasons header h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.list-item {
+    display: flex;
+    gap: 40px;
+}
+
+.item {
+    background-color: white;
+    color: black;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.content {
+    padding: 2rem 1rem;
+}
 
 /* page: katalog prev */
 #katalog-prev {
