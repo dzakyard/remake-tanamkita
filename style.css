@@ -125,14 +125,12 @@ h1 {
 
 /* page: katalog prev */
 #katalog-prev {
-    background-color: green;
     height: 700px;
 }
 
 .header-kat {
     text-align: center;
     padding: 4rem;
-    color: white;
 }
 
 .product-list {
@@ -142,7 +140,8 @@ h1 {
 }
 
 .product {
-    background-color: white;
+    background-color: green;
+    color: white;
     width: 280px;
     height: 350px;
     text-align: center;
@@ -167,12 +166,14 @@ h1 {
 
 /* page: contact */
 #contact {
+    background-color: green;
     height: 700px;
 }
 
 .header-con {
     text-align: center;
     padding: 4rem;
+    color: white;
 }
 
 .container {
@@ -183,6 +184,7 @@ h1 {
 
 .info, 
 .form-contact {
+    background-color: white;
     display: flex;
     flex-direction: column;
     padding: 2rem;
