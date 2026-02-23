@@ -300,3 +300,63 @@ footer ul li a {
 .link-active {
     color: rgb(0, 255, 4);
 }
+
+
+/* responsive */
+@media (max-width: 768px) {
+    /* page: home */
+    .menu,
+    .home-img pre,
+    .about-img pre {
+        display: none;
+    }
+
+    /* page: about */
+    #tentang-kami {
+        padding: 0;
+    }
+
+    .about-img {
+        margin: 0;
+    }
+
+    .about {
+        margin: 0;
+        padding: 4rem;
+        width: 100%;
+    }
+
+    /* page: reasons */
+    #tentang-kami,
+    #reasons,
+    #katalog-prev,
+    #contact {
+        height: 100%;
+    }
+
+    /* page: product */
+    .list-item,
+    .product-list,
+    .container {
+        flex-direction: column;
+        padding: 3rem;
+        padding-top: 0;
+        align-items: center;
+    }
+
+    /* page: contact */
+    .info,
+    .item,
+    .form-contact,
+    footer {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* page: footer */
+    footer {
+        flex-direction: column;
+        padding: 2rem 4rem;
+        gap: 2rem;
+    }
+}
